@@ -3,7 +3,7 @@
 ## overview
 ・Mapper2のFC用のカートリッジ基板です。
 
-・容量は16KB x 8バンク=128KB(またはx16bank=256KB)。
+・容量は16KB x 8バンク=128KB(またはx16バンク=256KB)。
 
 ・8bitworkshop.com「solarian game」、Morphcat Games「Spacegulls」で動作を確認しました。
 
@@ -17,13 +17,13 @@
 <img width="942" height="455" alt="fccart_pcb" src="https://github.com/user-attachments/assets/7d19552f-7b8f-45bd-b2ec-794f1df2bb14" />
 
 ## Parts
-・U1：Flash memory。SST39SF040/SST39SF020A/SST39SF010A
+・U1：Flash memory。SST39SF040/SST39SF020A/SST39SF010A。
 
-・U2：32KB SRAM。 https://akizukidenshi.com/catalog/g/gI-01461/
+・U2：256KB=32KB SRAM。SRM2B256SLMX55。SOP28パッケージ。
 
-・U3：74HC161
+・U3：74HC161。
 
-・U4：74HC32
+・U4：74HC32。
 
 ・抵抗
 
@@ -65,3 +65,8 @@
 ・0xC000番地に0を書き込む→バンク0を選択
 
 ・0xC007番地に7を書き込む→バンク7を選択
+
+## フラッシュメモリの書き込み
+こちらのライターを使います。
+
+https://github.com/nicotakuya/diyfccartridge
