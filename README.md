@@ -10,6 +10,8 @@
 <img width="361" height="463" alt="mapper2" src="https://github.com/user-attachments/assets/0327010c-28e5-401e-858b-b95780a6da15" />
 
 ## files
+・fccart_mp2_schematics.png：回路図。
+
 ・FC_CARTMP2.COMP : 基板のCADデータ(CADLUS X用).
 
 <img width="942" height="455" alt="fccart_pcb" src="https://github.com/user-attachments/assets/7d19552f-7b8f-45bd-b2ec-794f1df2bb14" />
