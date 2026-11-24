@@ -12,7 +12,7 @@
 ## files
 ・fccart_mp2_schematics.png：回路図。
 
-・testフォルダ：バンクを2秒おきに切り替えるデモプログラム(16KB×8バンク=128KB)。rom.nesがROMイメージです。build.batを実行するとCC65でコンパイルします。
+・testromフォルダ：バンクを2秒おきに切り替えるデモプログラム(16KB×8バンク=128KB)。rom.nesがROMイメージです。build.batを実行するとCC65でコンパイルします。
 
 ・FC_CARTMP2.COMP : プリント基板のCADデータ(CADLUS X用).
 
