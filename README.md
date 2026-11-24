@@ -12,7 +12,9 @@
 ## files
 ・fccart_mp2_schematics.png：回路図。
 
-・FC_CARTMP2.COMP : 基板のCADデータ(CADLUS X用).
+・test/*.*：バンクを2秒おきに切り替えるデモプログラム(16KB×8バンク=128KB)。CC65でコンパイルします。
+
+・FC_CARTMP2.COMP : プリント基板のCADデータ(CADLUS X用).
 
 <img width="942" height="455" alt="fccart_pcb" src="https://github.com/user-attachments/assets/7d19552f-7b8f-45bd-b2ec-794f1df2bb14" />
 
