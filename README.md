@@ -12,7 +12,7 @@
 ## files
 ・fccart_mp2_schematics.png：回路図。
 
-・testromフォルダ：バンクを2秒おきに切り替えるデモプログラム(16KB×8バンク=128KB)。rom.nesがROMイメージです。build.batを実行するとCC65でコンパイルします。
+・testromフォルダ：バンクを2秒おきに切り替えるプログラム(16KB×8バンク=128KB)。rom.nesがROMイメージです。build.batを実行するとCC65でコンパイルします。
 
 ・FC_CARTMP2.COMP : プリント基板のCADデータ(CADLUS X用).
 
@@ -70,5 +70,10 @@
 
 ## フラッシュメモリの書き込み
 こちらのライターを使います。
+
+## TestROMの実行画面とデータ内容
+<img width="514" height="500" alt="mapper2_testrom" src="https://github.com/user-attachments/assets/cfec957a-da0d-443d-b2b4-2881d06f6a82" />
+
+<img width="655" height="606" alt="mapper2_testrom_view" src="https://github.com/user-attachments/assets/81900b72-d5bf-4077-92c1-291ad7216c22" />
 
 https://github.com/nicotakuya/diyfccartridge
