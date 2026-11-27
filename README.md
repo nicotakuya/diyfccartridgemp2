@@ -19,9 +19,9 @@
 <img width="942" height="455" alt="fccart_pcb" src="https://github.com/user-attachments/assets/7d19552f-7b8f-45bd-b2ec-794f1df2bb14" />
 
 ## Parts
-・U1：Flash memory。SST39SF040(128KB)/SST39SF020A(256KB)/SST39SF010A(512KB)。
+・U1：Flash memory。SST39SF040(128KB) / SST39SF020A(256KB) / SST39SF010A(512KB)。
 
-・U2：32KB SRAM。SRM2B256SLMX55。SOP28パッケージ。
+・U2：32KB SRAM。SRM2B256SLMX55。SOP28パッケージ。実際は8KBしか使っていません。
 
 ・U3：74HC161。
 
@@ -31,18 +31,20 @@
 
 ・R3/4：4.7K OHM 抵抗
 
-・C1：100MICRO F
+・C1：100 micro F
 
 ・PS1：ポリスイッチ0.1A
 
-・LED1/2
+・LED1/2：省略可
 
 ## 回路の解説
 ・カードエッジのA0～A13はフラッシュメモリに接続しています。一度にアクセスできる容量は16KBまでです。A14～A17の信号はアドレスデコーダ(74HC161+74HC32)から供給されます。
 
 ・JP1(ジャンパ)のPPU A10=VRAM A10を接続するとVミラーリング、PPU A11=VRAM A10を接続するとHミラーリングになります。
 
-・JP3=ONの場合は全16バンクとなります(256KBのフラッシュメモリで動作)。OFFの場合は全8バンクです(128KBのフラッシュメモリで動作)。
+・JP3=ONの場合は全16バンク(256KBのフラッシュメモリで動作)。
+
+・JP3=OFFの場合は全8バンク(128KBのフラッシュメモリで動作)。
 
 ・74HC161はバンク番号を記憶するために使用します。記憶したバンク番号はPRG-ROMのA14～A17に出力されます。
 
